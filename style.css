@@ -36,5 +36,12 @@
     align-items: center;
     width: 100%;
     border-bottom: 4px solid var(--cor-borda);
-    border-left: 2px;
+    border-left: 2px solid var(--cor-borda);
+    border-right: 2px solid var(--cor-borda) ;
+    border-top: 4px solid var(--cor-borda) ;
+
 }
+.botoes{
+    display: block;
+}
+.botao:first
