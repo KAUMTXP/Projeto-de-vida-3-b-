@@ -26,7 +26,8 @@
 .titulo-principal span{
     color: var(--verde);
 }
-.botao{
+.botao
+{
     background-color: var(--botao-inativo);
     color: var(--branco);
     display: flex;
