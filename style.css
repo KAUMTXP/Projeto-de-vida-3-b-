@@ -1,21 +1,21 @@
 :root
 {
-    --cor-de-fundo:#F5F5F5;
-    --preto: #000000;
-    --branco:#F5F5F5;
-    --botao-ativo: #A020F0;
-    --botao-inativo: #FF00FF;
-    --texto-fundo: #87CEFA;
-    --cor-borda: #000000;
+--cor-de-fundo: #F5f5f5;
+--preto: #000000;
+--branco: #FFFFFF;
+--botao-ativo: #DB7093;
+--botao-inativo: #FF69B4;
+--texto-fundo: #FFB6C1;
+--cor-borda: #000000;
 }
 .conteudo-principal{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+max-width: 1200px;
+width: 100%;
+margin: 0 auto;
 }
 .titulo-principal{
     text-align: center;
@@ -38,40 +38,41 @@
     width: 100%;
     border-bottom: 4px solid var(--cor-borda);
     border-left: 2px solid var(--cor-borda);
-    border-right: 2px solid var(--cor-borda) ;
-    border-top: 4px solid var(--cor-borda) ;
-
+    border-right: 2px solid var(--cor-borda);
+    border-top: 4px solid var(--cor-borda);
 }
 .botoes{
     display: block;
 }
-.botao:first-child{
-    border-radius: 40px 40px 0 0;
-    border-left: 4px solid var(--cor-borda);
-    border-bottom: 2px solid var(--cor-borda);
+.botao:first-child
+{
+border-radius: 40px 40px 0 0;
+border-left: 4px solid var(--cor-borda);
+border-bottom: 2px solid var(--cor-borda);
+}
+.botao:last-child{
+        border-right: 4px solid var(--cor-borda);
+        border-top: 4px;
 }
 @media screen and (min-width: 768px)
 {
-    .botoes
-    {
+    .botoes{
         display: flex;
-        border-bottom:  4px solid var(--cor-borda);
+        border-bottom: 4px solid var(--cor-borda);
     }
-    .botao:first-child
-    {
+    .botao:first-child{
         border-radius: 40px 0 0 0;
         border-top: 4px solid var(--cor-borda);
+        }
+    .botao:last-child
+    {
+        border-radius: 0 40px 0  0;
+        border-top: 4px solid var(--cor-borda);
     }
-.botao:last-child
-{
-    border-radius: 0 40px 0 0;
-    border-top: 4px solid var(--cor-borda);
-
 }
- }
- body
+body
 {
-    background-color: var(--cor-de-fundo)
+    background-color: var(--cor-de-fundo);
 }
 .botao.ativo
 {
@@ -87,11 +88,11 @@
     border-right: 4px solid var(--cor-borda);
     border-left: 4px solid var(--cor-borda);
 }
-.aba-conteudo.ativo
+.aba-conteudo.botao.ativo
 {
-    display: block;
+display: block;
 }
-.aba-conteudo
+.aba-conteudo.botao.ativo
 {
-    display: none;
+display: none;
 }
