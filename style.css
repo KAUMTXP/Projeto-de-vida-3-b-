@@ -48,12 +48,14 @@
 .botao:first-child{
     border-radius: 40px 40px 0 0;
     border-left: 4px solid var(--cor-borda);
+    border-bottom: 2px solid var(--cor-borda);
 }
 @media screen and (min-width: 768px)
 {
     .botoes
     {
         display: flex;
+        border-bottom:  4px solid var(--cor-borda);
     }
     .botao:first-child
     {
@@ -63,7 +65,7 @@
 .botao:last-child
 {
     border-radius: 0 40px 0 0;
-    border-right: 4px solid var(--cor-borda);
+    border-top: 4px solid var(--cor-borda);
 
 }
  }
