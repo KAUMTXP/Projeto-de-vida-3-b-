@@ -23,9 +23,8 @@ margin: 0 auto;
     font-size: 32px;
     color: var(--preto);
 }
-.titulo-principal span{
-    color: var(--verde);
-}
+
+
 .botao
 {
     background-color: var(--botao-inativo);
@@ -88,11 +87,11 @@ body
     border-right: 4px solid var(--cor-borda);
     border-left: 4px solid var(--cor-borda);
 }
-.aba-conteudo.botao.ativo
+.aba-conteudo.ativo
 {
 display: block;
 }
-.aba-conteudo.botao.ativo
+.aba-conteudo
 {
 display: none;
 }
