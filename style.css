@@ -4,8 +4,8 @@
 --preto: #000000;
 --branco: #FFFFFF;
 --botao-ativo: #EEE8AA;
---botao-inativo: #FF69B4;
---texto-fundo: #FFB6C1;
+--botao-inativo:#FFFACD;
+--texto-fundo: #FFFF00;
 --cor-borda: #000000;
 }
 .conteudo-principal{
